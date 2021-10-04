@@ -1,11 +1,24 @@
-p{
-  background-color: Gray;
-}
 
 .green_color{
   background-color: MediumSeaGreen;
+  border: 1px black solid;
 }
 
 .orange_color{
   background-color: orange;
+  border: 1px black solid;
+}
+
+table,td{
+  border: 3px black solid;
+}
+
+.violet_color{
+  background-color: Violet;
+  border: 1px black solid;
+}
+
+.purple_color{
+  background-color: #8F00FF;
+  border: 1px black solid;
 }

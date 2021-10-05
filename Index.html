@@ -12,12 +12,24 @@
 
       .intro{
         font-size: 25px;
+        color: Blue;
 
       }
       .header{
         border: 1px black solid;
         font-size: 50px;
+        
       }
+
+      #subjects tr:nth-child(even){
+        background-color: #f2f2f2;
+      }
+
+      #subjects tr:hover{
+        background-color: red;
+      }
+
+
     </style>
   </head>
   <body>
@@ -43,9 +55,9 @@
 <br>
 
 
-<table>
+<table id="subjects">
   <tr>
-    <td>Subjects</td>
+    <td>Subject</td>
     <td>Course Title</td>
   </tr>
 

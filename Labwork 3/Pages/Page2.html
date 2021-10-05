@@ -12,7 +12,7 @@
             }
 
             div.gallery:hover {
-              border: 1px solid #777;
+              border: 3px solid #777;
             }
 
             div.gallery img {
@@ -24,60 +24,87 @@
               padding: 10px;
               text-align: center;
             }
-            </style>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0">
-            <a class="navbar-brand nav-title" href="./Page2.html"><i class="fas fa-film fast"></i>PAGE 2</a>
-            <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-angle-down"></i>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            .column{
+              float: left;
+              width: 33.33%;
+              padding: 5px;
+            }
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Home.html" id="a-active">Home</a>
-                    </li>
+            .row{
+              content: "";
+              clear: both;
+              display: table;
+              }
+              </style>
+      </head>
+      <body>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0">
+              <a class="navbar-brand nav-title" href="./Page2.html"><i class="fas fa-film fast"></i>PAGE 2</a>
+              <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-angle-down"></i>
+              </button>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Page2.html" id="a-not-active">Page 2</a>
-                    </li>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Page3.html" id="a-not-active">Page 3</a>
-                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../Home.html" id="a-active">Home</a>
+                      </li>
 
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="contact.html" id="a-not-active">Contact Us</a>
-                    </li> -->
+                      <li class="nav-item">
+                          <a class="nav-link" href="./Page2.html" id="a-not-active">Page 2</a>
+                      </li>
 
-                </ul>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./Page3.html" id="a-not-active">Page 3</a>
+                      </li>
 
+                      <!-- <li class="nav-item">
+                          <a class="nav-link" href="contact.html" id="a-not-active">Contact Us</a>
+                      </li> -->
+
+                  </ul>
+
+              </div>
+          </nav>
+
+          <h1>THIS IS PAGE 2</h1>
+          <div class="row">
+            <div class="column">
+              <div class="gallery">
+                <a target="_blank" href="../../Images/coffee.jfif">
+                  <img src="../../Images/coffee.jfif" alt="This is a coffee" width="100%" >
+                </a>
+                <div class="desc">Hot Coffee</div>
+              </div>
             </div>
-        </nav>
-
-        <h1>THIS IS PAGE 2</h1>
-        <div class="gallery">
-            <a target="_blank" href="../../Images/coffee.jfif">
-              <img src="../../Images/coffee.jfif" alt="This is a coffee" width="200" height="200">
-            </a>
-            <div class="desc">Hot Coffee</div>
           </div>
 
-          <div class="gallery">
-            <a target="_blank" href="../../Images/fitzer.jfif">
-              <img src="../../Images/fitzer.jfif" alt="This is Fitzer" width="200" height="150">
-            </a>
-            <div class="desc">Ice cold Fitzer</div>
+          <div class="row">
+            <div class="column">
+              <div class="gallery">
+                <a target="_blank" href="../../Images/rice.jfif">
+                  <img src="../../Images/rice.jfif" alt="This is a Rice" width="100%" >
+                </a>
+                <div class="desc">Plain Rice</div>
+              </div>
+            </div>
           </div>
 
-          <div class="gallery">
-            <a target="_blank" href="../../Images/rice.jfif">
-              <img src="../../Images/rice.jfif" alt="This is a Rice" width="200" height="200">
-            </a>
-            <div class="desc">Plain Rice</div>
+          <div class="row">
+            <div class="column">
+              <div class="gallery">
+                <a target="_blank" href="../../Images/fitzer.jfif">
+                  <img src="../../Images/fitzer.jfif" alt="This is Fitzer" width="100%">
+                </a>
+                <div class="desc">Ice cold Fitzer</div>
+              </div>
+            </div>
           </div>
+
+
+
 
 
 

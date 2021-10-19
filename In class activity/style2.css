@@ -1,0 +1,32 @@
+div {
+    padding: 15px;
+}
+
+#header_style {
+    background-color: #d6cbd3;
+    text-align: center;
+}
+
+#nav_style {
+    background-color: #bdcebe;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 600px;
+
+}
+
+#main_area_style {
+    background-color: #eca1a6;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    height: 600px;
+
+}
+
+#footer_style {
+    background-color: #ada397;
+    text-align: center;
+    clear: both;
+}

@@ -2,12 +2,13 @@ h2{
   color: white;
   background-color: green;
   border: 5px solid black;
+  margin: 0px;
 }
 
 .border1{
   border:1px solid black;
   box-sizing: content-box;
-  width: 50%;
+  width: 35%;
 }
 
 
@@ -15,6 +16,7 @@ h3{
   background-color: #ff6347;
   border:1px solid black;
   font-weight: bold;
+  margin: 0px;
 
 }
 td, th, table {

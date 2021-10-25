@@ -1,4 +1,4 @@
-#header{
+h2{
   color: white;
   background-color: green;
   border: 5px solid black;
@@ -7,17 +7,20 @@
 .border1{
   border:1px solid black;
   box-sizing: content-box;
-  width: 30%;
+  width: 50%;
 }
 
-.header2{
-  background-color: pink;
+
+h3{
+  background-color: #ff6347;
   border:1px solid black;
+  font-weight: bold;
+
 }
 td, th, table {
   border: 1px solid black;
   border-collapse: collapse;
 }
 td{
-  color: orange;
+  color: #ff6347;
 }

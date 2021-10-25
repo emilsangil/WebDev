@@ -1,0 +1,23 @@
+#header{
+  color: white;
+  background-color: green;
+  border: 5px solid black;
+}
+
+.border1{
+  border:1px solid black;
+  box-sizing: content-box;
+  width: 30%;
+}
+
+.header2{
+  background-color: pink;
+  border:1px solid black;
+}
+td, th, table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  color: orange;
+}

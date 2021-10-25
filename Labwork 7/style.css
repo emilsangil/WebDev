@@ -1,7 +1,7 @@
 h2{
-  color: white;
-  background-color: green;
-  border: 5px solid black;
+  background-color: hotpink;
+  border:3px solid black;
+  font-weight: bold;
   margin: 0px;
 }
 
@@ -13,19 +13,33 @@ h2{
 
 
 h3{
-  background-color: #ff6347;
-  border:3px solid black;
-  font-weight: bold;
+  color: white;
+  background-color: green;
+  border: 5px solid black;
   margin: 0px;
-
 }
+
 td, th, table {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
 td{
   color: #ff6347;
 }
-a{
+
+a:link{
   color: red;
+}
+
+a:hover{
+  color: green;
+}
+
+a:visited{
+  color: yellow;
+}
+
+a:active{
+  color: orange;
 }

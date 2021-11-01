@@ -1,4 +1,4 @@
-.header{
+#header{
   text-align: center;
   font-weight: bold;
   background-color: #D3D3D3;
@@ -54,7 +54,7 @@ a:active{
   color: orange;
 }
 
-.footer{
+#footer{
   text-align: center;
   font-weight: bold;
   background-color: gray;

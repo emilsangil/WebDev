@@ -1,12 +1,12 @@
-add = function() {
-    x = parseInt(jQuery('#num1').html()); // html() is a getter
+addNum = function() {
+    x = parseInt(jQuery('#num1').html());
     y = parseInt(jQuery('#num2').html());
-    // alert(x + y) //now, adition not concatenation anymore
-    z = x + y // processing
-    jQuery('#sum').html(z); // html(inout) is a setter
+    z = x + y
+    jQuery('#sum').html(z);
 }
+
 setup = function() {
-    jQuery('#trigger_the_add').click(add)
+    jQuery('#trigger_the_add').click(addNum)
 }
 
 jQuery(document).ready(setup)

@@ -1,0 +1,62 @@
+#header{
+  text-align: center;
+  font-weight: bold;
+  background-color: #D3D3D3;
+  float: clear;
+}
+
+.sports_style{
+  width: 80%;
+  height: 100%;
+  float: left;
+  background-color: pink;
+}
+
+.nav{
+  width: 20%;
+  height: 100%;
+  float: right;
+  background-color: #E0FFFF;
+}
+
+
+td, th, table {
+  border: 1px solid black;
+}
+table{
+  float: left;
+  width: 30%;
+}
+
+.img_group{
+  float: left;
+  width: 70%;
+  background-color: #F0F0F0;
+}
+
+a>img{
+  border: 3px solid black;
+}
+
+a:link{
+  color: red;
+}
+
+a:hover{
+  color: green;
+}
+
+a:visited{
+  color: yellow;
+}
+
+a:active{
+  color: orange;
+}
+
+#footer{
+  text-align: center;
+  font-weight: bold;
+  background-color: gray;
+  float: clear;
+}

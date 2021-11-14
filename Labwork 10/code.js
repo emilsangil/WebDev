@@ -1,12 +1,13 @@
-addNum = function() {
-    x = parseInt(jQuery('#num1').html());
-    y = parseInt(jQuery('#num2').html());
-    z = x + y
-    jQuery('#sum').html(z);
+function add() {
+  x = parseInt($('#num1').html());
+  y = parseInt($('#num2').html());
+  z = x + y
+  $('#result').html(z);
 }
 
-setup = function() {
-    jQuery('#trigger_the_add').click(addNum)
+
+function setup() {
+  $('#trigger_add').click(add);
 }
 
-jQuery(document).ready(setup)
+$(document).ready(setup)

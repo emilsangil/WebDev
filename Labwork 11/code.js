@@ -3,6 +3,7 @@ function add() {
   y = parseInt($('#num2').html());
   z = x + y
   $('#result').html(z);
+  $('#history').append(x + ' + ' + y + ' = ' + z + '<br>');
 }
 
 function minus() {
@@ -10,6 +11,8 @@ function minus() {
   y = parseInt($('#num2').html());
   z = x - y
   $('#result').html(z);
+  $('#history').append(x + ' - ' + y + ' = ' + z + '<br>');
+
 }
 
 function multiply() {
@@ -17,6 +20,8 @@ function multiply() {
   y = parseInt($('#num2').html());
   z = x * y
   $('#result').html(z);
+  $('#history').append(x + ' * ' + y + ' = ' + z + '<br>');
+
 }
 
 function divide() {
@@ -24,6 +29,8 @@ function divide() {
   y = parseInt($('#num2').html());
   z = x / y
   $('#result').html(z);
+  $('#history').append(x + ' / ' + y + ' = ' + z + '<br>');
+
 }
 
 function setup() {

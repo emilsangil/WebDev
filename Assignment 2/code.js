@@ -53,7 +53,6 @@ function hide_() {
 }
 
 function delete_() {
-  alert("Hello");
   $(this).parent().hide();
 
 }

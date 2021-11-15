@@ -3,7 +3,7 @@ function add() {
   y = parseInt($('#num2').val());
   z = x + y;
   $('#result').html(z);
-  $('#history').append(`<div id="hist"> ${x} + ${y} = ${z} <button id="delete">Delete</button> </div> <br>`);
+  $('#history').append(`<div id="hist"> ${x} + ${y} = ${z} <button id="delete">Delete</button> </div>`);
 }
 
 function minus() {
@@ -11,7 +11,7 @@ function minus() {
   y = parseInt($('#num2').val());
   z = x - y;
   $('#result').html(z);
-  $('#history').append(`<div id="hist"> ${x} - ${y} = ${z} <button id="delete">Delete</button> </div> <br>`);
+  $('#history').append(`<div id="hist"> ${x} - ${y} = ${z} <button id="delete">Delete</button> </div>`);
 
 }
 
@@ -20,7 +20,7 @@ function multiply() {
   y = parseInt($('#num2').val());
   z = x * y;
   $('#result').html(z);
-  $('#history').append(`<div id="hist"> ${x} * ${y} = ${z} <button id="delete">Delete</button> </div> <br>`);
+  $('#history').append(`<div id="hist"> ${x} * ${y} = ${z} <button id="delete">Delete</button> </div>`);
 
 }
 
@@ -29,7 +29,7 @@ function divide() {
   y = parseInt($('#num2').val());
   z = x / y;
   $('#result').html(z);
-  $('#history').append(`<div id="hist"> ${x} / ${y} = ${z} <button id="delete">Delete</button> </div> <br>`);
+  $('#history').append(`<div id="hist"> ${x} / ${y} = ${z} <button id="delete">Delete</button> </div>`);
 
 }
 
@@ -41,7 +41,7 @@ function power() {
     z *= x;
   }
   $('#result').html(z);
-  $('#history').append(`<div id="hist"> ${x} ^ ${y} = ${z} <button id="delete">Delete</button> </div> <br>`);
+  $('#history').append(`<div id="hist"> ${x} ^ ${y} = ${z} <button id="delete">Delete</button> </div>`);
 }
 
 function show_() {

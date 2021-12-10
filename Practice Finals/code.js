@@ -39,7 +39,7 @@ function call_ajax(){
   // alert("asd")
   $.ajax(
     {
-      url: `https://imdb-api.com/en/API/Top250Movies/k_c061af1l`,
+      url: `https://imdb-api.com/en/API/Top250Movies/k_67c0z7hb`,
       type: 'GET',
       success: process_
     }

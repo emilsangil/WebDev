@@ -36,7 +36,7 @@ function process_(data) {
   console.log(data);
   received_object = data;
   // display_result();
-  for (var j = 0; j < page + 10; j++){
+  for (var j = 0; j < data.result.length; j++){
     to_add = "";
 
     to_add += "<div>";

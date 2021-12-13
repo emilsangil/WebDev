@@ -23,7 +23,7 @@ function display_result(){
 
     to_add += "<br";
 
-    to_add += `<img src= "${received_object.results[j].image}"`;
+    to_add += `<img src= "${received_object.results[j].image}">`;
 
     to_add += "</div>";
     jQuery('#pages').append(to_add);

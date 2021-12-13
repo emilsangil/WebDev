@@ -3,18 +3,11 @@ received_object = null;
 
 counter = 0
 function display_result(){
-  //cleaning
-  // jQuery("div").remove();
-  // jQuery("th").remove();
-  // jQuery("tr").remove();
 
-  //starting over..
-  // jQuery('#list_').append("<table>");
-  // jQuery('#list_').append("<tr><th>Number</th><th>Title</th><th>imdb rating</th></tr>");
 
   counter = page + 1;
 
-  for (var j = page; j < received_object.results.length; j++){
+  for (var j = page; j < page + 10; j++){
     to_add = ""
 
     to_add += "<div>"
@@ -41,8 +34,8 @@ function display_result(){
 
 function process_(data) {
   console.log(data);
-  received_object = data
-  display_result()
+  received_object = data;
+  display_result();
 }
 
 function call_ajax() {
@@ -56,7 +49,6 @@ function call_ajax() {
 function setup() {
   $('#search_movie').click(call_ajax);
   $('#search_movie').click(display_result);
-  // call_ajax();
 }
 
 $(document).ready(setup)

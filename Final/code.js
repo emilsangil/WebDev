@@ -8,9 +8,9 @@ function display_result(){
   counter = page + 1;
 
   for (var j = page; j < page + 10; j++){
-    to_add = ""
+    to_add = "";
 
-    to_add += "<div>"
+    to_add += "<div>";
     to_add += `${counter++}.`;
 
     to_add += " Title: ";
@@ -21,12 +21,12 @@ function display_result(){
     to_add += "Description: ";
     to_add += received_object.results[j].description;
 
-    to_add += "<br"
+    to_add += "<br";
 
-    to_add += `<img src= "${received_object.results[j].image}"`
+    to_add += `<img src= "${received_object.results[j].image}"`;
 
-    to_add += "</div>"
-    jQuery('#pages').append(to_add)
+    to_add += "</div>";
+    jQuery('#pages').append(to_add);
   }
 
 }
